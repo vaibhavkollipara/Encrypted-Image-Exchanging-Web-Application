@@ -1,0 +1,82 @@
+body{
+ background-color: black;
+ color: white;
+}
+ #header{
+   height: 100px;
+   width: 100%;
+   background-color: black;
+   text-align: center;
+   font-family: "Constantia";
+ }
+ #main{
+   background-color: black;
+   height: 450px;
+   width: 100%;
+ }
+ 
+ #footer{
+   background-color: black;
+   height: 80px;
+   width: 100%;
+   text-align: center;
+ }
+ 
+ .box{
+  border: 2px solid aqua ;
+  float: left;
+  width: 48%;
+  height: auto;
+  margin-left: 1%;
+  margin-top: 1%;
+  text-align: center;
+ }
+ .box a{
+  line-height: 30px;
+  vertical-align:middle;
+  text-decoration: none;
+  font-size: x-large;
+  text-align: center;
+  font-family: "PaddingtonSC";
+  color: orange;
+  }
+.box:hover{
+  background-color: #7A2900;
+} 
+
+.tab{
+	line-height: 30px;
+  vertical-align:middle;
+  text-decoration: none;
+  font-size: x-large;
+  text-align: center;
+  font-family: "PaddingtonSC";
+}
+.tab tr:HOVER{
+	background-color: orange;
+}
+
+.tab td,.tab th{
+	 padding: 2px 2px 2px 2px;
+}
+
+.details{
+	 border: 2px solid white;
+	 padding:10px;
+}
+.details td{
+	padding:3px;
+	text-align: left;
+	font-family: "PaddingtonSC";
+}
+
+.mybutton{
+	background-color: orange;
+}
+.mybutton:HOVER {
+	background-color: red;
+}
+
+#footer h3{
+	font-family: "PaddingtonSC";
+}
